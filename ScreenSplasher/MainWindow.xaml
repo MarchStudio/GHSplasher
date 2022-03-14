@@ -1,0 +1,39 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HBSpTool"
+        xmlns:System="clr-namespace:System;assembly=mscorlib" x:Class="MainWindow"
+        mc:Ignorable="d"
+        Title="刷屏工具" Height="418" Width="800">
+    <Grid x:Name="Grid_Main" Background="#FFF0F0F0" Opacity="0.9">
+        <Label x:Name="Lb_SpContent" Content="刷屏内容（留空表示剪贴板内容）" Height="152" Margin="10,10,9.6,0" VerticalAlignment="Top" FontSize="25" BorderBrush="SkyBlue" Opacity="0.9"/>
+        <TextBox x:Name="Tb_SpContent" Height="109" Margin="10,49,9.6,0" TextWrapping="Wrap" Text="[在此处输入刷屏内容]" VerticalAlignment="Top" FontSize="22" Background="White" Opacity="0.9" AcceptsReturn="True" VerticalScrollBarVisibility="Auto"/>
+        <Label x:Name="Lb_SpTime" Content="刷屏次数" Height="44" Margin="10,160,0,0" VerticalAlignment="Top" FontSize="25" BorderBrush="SkyBlue" HorizontalAlignment="Left" Width="774" Opacity="0.9"/>
+        <TextBox x:Name="Tb_SpTime" Height="32" Margin="152,167,41.6,0" TextWrapping="Wrap" Text="10" VerticalAlignment="Top" FontSize="22" Opacity="0.9"/>
+        <Button x:Name="Bt_SpTimeDown" Content="-" HorizontalAlignment="Left" Height="32" Margin="120,167,0,0" VerticalAlignment="Top" Width="32" FontSize="20" Opacity="0.9"/>
+        <Button x:Name="Bt_SpTimeUp" Content="+" HorizontalAlignment="Right" Height="32" Margin="0,167,9.6,0" VerticalAlignment="Top" Width="32" FontSize="20" Opacity="0.9"/>
+        <Label x:Name="Lb_SpKey" Content="发送按键" Height="43" Margin="10,204,4.6,0" VerticalAlignment="Top" FontSize="25"/>
+        <ComboBox x:Name="Cb_SpKey" Height="33" Margin="125,211,4.6,0" VerticalAlignment="Top" FontSize="25">
+            <System:String>Enter</System:String>
+            <System:String>Ctrl+Enter</System:String>
+            <System:String>Alt+Enter</System:String>
+            <System:String>Shift+Enter</System:String>
+            <System:String>自定义</System:String>
+            <MediaElement Height="100" Width="100"/>
+        </ComboBox>
+        <Label x:Name="Lb_PreSpKey" Content="发送前按键" Height="44" VerticalAlignment="Top" FontSize="25" Margin="10,250,-3.4,0"/>
+        <ComboBox x:Name="Cb_PreSpKey" Height="33" Margin="152,257,4.6,0" VerticalAlignment="Top" FontSize="25">
+            <System:String>(无)</System:String>
+            <System:String>/</System:String>
+            <System:String>T</System:String>
+            <System:String>B</System:String>
+            <System:String>自定义</System:String>
+        </ComboBox>
+        <Label x:Name="Lb_SpFreq" Content="刷屏间隔(毫秒)" Height="43" Margin="10,293,-0.4,0" VerticalAlignment="Top" FontSize="25"/>
+        <TextBox x:Name="Tb_SpFreq" Height="32" Margin="187,299,4.6,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="25"/>
+        <Button x:Name="Bt_StartSp" Content="开始刷屏" HorizontalAlignment="Right" Height="44" Margin="0,0,4.6,3" VerticalAlignment="Bottom" Width="120" FontSize="25"/>
+
+    </Grid>
+</Window>
