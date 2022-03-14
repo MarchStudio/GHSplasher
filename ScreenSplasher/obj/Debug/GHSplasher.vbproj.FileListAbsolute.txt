@@ -1,0 +1,17 @@
+F:\GHSplasher\ScreenSplasher\bin\Debug\GHSplasher.exe.config
+F:\GHSplasher\ScreenSplasher\bin\Debug\GHSplasher.exe
+F:\GHSplasher\ScreenSplasher\bin\Debug\GHSplasher.pdb
+F:\GHSplasher\ScreenSplasher\bin\Debug\GHSplasher.xml
+F:\GHSplasher\ScreenSplasher\obj\Debug\GHSplasher.vbproj.AssemblyReference.cache
+F:\GHSplasher\ScreenSplasher\obj\Debug\MainWindow.g.vb
+F:\GHSplasher\ScreenSplasher\obj\Debug\Application.g.vb
+F:\GHSplasher\ScreenSplasher\obj\Debug\GHSplasher_MarkupCompile.cache
+F:\GHSplasher\ScreenSplasher\obj\Debug\GHSplasher_MarkupCompile.lref
+F:\GHSplasher\ScreenSplasher\obj\Debug\MainWindow.baml
+F:\GHSplasher\ScreenSplasher\obj\Debug\GHSplasher.g.resources
+F:\GHSplasher\ScreenSplasher\obj\Debug\GHSplasher.Resources.resources
+F:\GHSplasher\ScreenSplasher\obj\Debug\GHSplasher.vbproj.GenerateResource.cache
+F:\GHSplasher\ScreenSplasher\obj\Debug\GHSplasher.vbproj.CoreCompileInputs.cache
+F:\GHSplasher\ScreenSplasher\obj\Debug\GHSplasher.exe
+F:\GHSplasher\ScreenSplasher\obj\Debug\GHSplasher.xml
+F:\GHSplasher\ScreenSplasher\obj\Debug\GHSplasher.pdb

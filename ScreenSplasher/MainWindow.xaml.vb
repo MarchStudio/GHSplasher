@@ -172,7 +172,7 @@ Class MainWindow
     Private Sub Bt_StartSp_Click(sender As Object, e As RoutedEventArgs) Handles Bt_StartSp.Click
         Try
             Dim LastTime As Long = Me.Tb_SpTime.Text * (20 + Me.Tb_SpFreq.Text) + 1000
-            Dim MSGR = MsgBox("即将开始刷屏，预计耗时" + LastTime.ToString() + "毫秒，请在刷屏过程中关闭输入法并且将光标保持在聊天软件的输入框中。" + vbCrLf + "若您已准备完毕，请单击确定开始刷屏。", 65, "HIM Best刷屏工具")
+            Dim MSGR = MsgBox("即将开始刷屏，预计耗时" + LastTime.ToString() + "毫秒，请在刷屏过程中关闭输入法并且将光标保持在聊天软件的输入框中。" + vbCrLf + "若您已准备完毕，请单击确定开始刷屏。", 65)
             If MSGR = MsgBoxResult.Ok Then
                 Me.WindowState = WindowState.Minimized
                 SpTool.StartSp(Me.Tb_SpContent.Text, Me.Tb_SpTime.Text, Me.Tb_SpFreq.Text, ConvertKey(Me.Cb_SpKey.Text), ConvertKey(Me.Cb_PreSpKey.Text))
