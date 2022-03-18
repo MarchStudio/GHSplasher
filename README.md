@@ -1,6 +1,6 @@
 # GHSplasher
 
-While using chatting online, splash his/her/their screen(s)!! 
+While chatting online, splash his/her/their screen(s)!! 
 
 Set up by [GreatHuang2007](https://github.com/GreatHuang2007)
 
